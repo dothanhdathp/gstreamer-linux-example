@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "tasks": [
+        {
+            "label": "Gstreamer Build",
+            "type": "shell",
+            "linux": {
+                "command": "make all",
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+        }
+    ]
+}
